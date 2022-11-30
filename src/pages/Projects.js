@@ -1,5 +1,5 @@
 export default function Projects() {
     return (
-        <h1>My Projects</h1>
+        <display className="display">My Projects</display>
     )
 }
