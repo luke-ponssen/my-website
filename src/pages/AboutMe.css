@@ -1,0 +1,19 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    }
+    
+.about-me-grid {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    vertical-align: middle;
+}
+    
+img {
+    width: 150px;
+    height: 150px;
+}
