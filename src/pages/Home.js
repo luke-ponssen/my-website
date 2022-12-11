@@ -1,15 +1,21 @@
 import image1 from '../images/image1.png';
+
+import React from 'react';
 import './Home.css';
 
-export default function Home() {
-    return (
-        <>
-        <display className="display">
-            <ul>
-                <li>Welcome to My Portfolio</li>
-                <li><img src={image1} className="picture1" alt="none" /></li>
-            </ul>
-        </display>
-        </>
-    )
+function Home() {
+  return (
+    <div className="home">
+      <div className="home-grid">
+        <div>
+            <h1>Welcome to Luke's Portfolio</h1>
+        </div>
+        <div>
+            <img src={image1} className="home-image" alt="pfp" />
+        </div>
+      </div>
+    </div>
+  );
 }
+
+export default Home;

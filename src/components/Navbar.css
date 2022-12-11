@@ -10,6 +10,12 @@
 
 .site-title {
     font-size: 2rem;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #6d47f9 25%, #356fed 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .nav ul {

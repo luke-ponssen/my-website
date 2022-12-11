@@ -11,15 +11,15 @@ return (
       <div className="about-me-grid">
         <div>
             <h3>I'm a brother of AKPsi</h3>
-            <img src={akp} alt="akp" />
+            <img src={akp} className="about-me-img" alt="akp" />
         </div>
         <div>
             <h3>I'm a student</h3>
-            <img src={student} alt="Student" />
+            <img src={student} className="about-me-img" alt="Student" />
         </div>
         <div>
             <h3>I'm a swimmer</h3>
-            <img src={swimmer} alt="swimmer" />
+            <img src={swimmer} className="about-me-img" alt="swimmer" />
         </div>
       </div>
     </div>

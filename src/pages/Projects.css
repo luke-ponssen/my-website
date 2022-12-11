@@ -9,7 +9,7 @@
     padding: 2rem 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 100px;
     vertical-align: middle;
 }
 
@@ -20,8 +20,12 @@
 .project-grid p {
     text-align: center;
 }
+
+.project-grid a {
+    color: white;
+}
     
-img {
-    width: 300px;
+.project-grid-img {
+    width: 500px;
     height: 300px;
 }
