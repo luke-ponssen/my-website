@@ -22,14 +22,6 @@
     vertical-align: middle;
 }
 
-@media screen and (max-width: 768px) {
-    .project-grid {
-      display: grid;
-      grid-template-columns: auto;
-      margin: 0 auto;
-    }
-  }
-
 .project-grid h3 {
     color: white;
 }
@@ -46,3 +38,19 @@
     width: 500px;
     height: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    .project-grid {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+      padding: 0rem 0rem;
+      margin: 0rem 0rem;
+      grid-gap: 50px;
+    }
+    .project-grid-img {
+        width: 400px;
+        height: 240px;
+    }
+  }
