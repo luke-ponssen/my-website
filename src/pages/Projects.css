@@ -4,14 +4,31 @@
     align-items: center;
     color: white;
 }
+
+.project h1 {
+    background-image: linear-gradient(to right, #6d47f9 25%, #356fed 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
     
 .project-grid {
-    padding: 2rem 6rem;
+    padding: 2rem 0rem;
+    margin: 2rem 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 100px;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 768px) {
+    .project-grid {
+      display: grid;
+      grid-template-columns: auto;
+      margin: 0 auto;
+    }
+  }
 
 .project-grid h3 {
     color: white;

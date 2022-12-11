@@ -1,82 +1,59 @@
-/* .display {
-    color: white;
-    font-size: 5rem;
-    gap: 0rem 0rem;
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.display ul {
-
-    gap: 2rem;
-    padding: 5rem 4rem; 
-    
-    font-size: 4rem;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.home-grid {
+  padding-left: 4rem;
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  grid-gap: 10px;
+  vertical-align: middle;
 }
 
-.display li:hover {
-    color: green;
-    animation: spin infinite 0.5s linear;
+@media screen and (max-width: 768px) {
+  .home-grid {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0 auto;
+  }
+}
+
+.home-grid h1 {
+  font-size: 3rem;
+  margin: 6rem 4rem;
+
+  background-image: linear-gradient(to right, #6d47f9 25%, #356fed 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.home-grid p {
+  color: white;
+  position: relative;
+  margin-top: -70px;
+}
+
+.home-image {
+  grid-area: image;
+}
+
+.home-image:hover {
+  animation: spin infinite 0.5s linear;
 }
 
 @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
-
-  .picture1 {
-    height: 355px;
-    width: 336px;
-    pointer-events: none;
-  } */
-
-  .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .home-grid {
-    padding-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    vertical-align: middle;
-  }
-
-  .home-grid h1 {
-    font-size: 3rem;
-    padding-top: 5rem;
-    padding-left: 4rem;
-
-    background-image: linear-gradient(to right, #6d47f9 25%, #356fed 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-  
-  .home-image {
-    grid-area: image;
-  }
-
-  .home-image:hover {
-    animation: spin infinite 0.5s linear;
-  }
-
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+}
   
   

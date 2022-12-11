@@ -4,14 +4,30 @@
     align-items: center;
     color: white;
 }
+
+.about-me h1 {
+    background-image: linear-gradient(to right, #6d47f9 25%, #356fed 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
     
 .about-me-grid {
-    padding-top: 1rem;
+    margin: 2rem 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 768px) {
+    .about-me-grid {
+      display: grid;
+      grid-template-columns: auto;
+      margin: 0 auto;
+    }
+}  
     
 .about-me-img {
     width: 300px;
