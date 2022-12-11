@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.d1bccf7c.css",
-    "main.js": "/my-website/static/js/main.705dd4c1.js",
+    "main.css": "/my-website/static/css/main.53e8435c.css",
+    "main.js": "/my-website/static/js/main.0dd62d1e.js",
     "static/media/countymap.png": "/my-website/static/media/countymap.90101938d09db3fa194e.png",
     "static/media/swimmer.png": "/my-website/static/media/swimmer.6db7a4a7df29b13dd664.png",
     "static/media/student.png": "/my-website/static/media/student.34d37a2d23bd96cb840f.png",
@@ -10,11 +10,11 @@
     "static/media/image1.png": "/my-website/static/media/image1.0a91c7361076dfccfc6c.png",
     "static/media/code.png": "/my-website/static/media/code.bd2c032271f67d8634b8.png",
     "index.html": "/my-website/index.html",
-    "main.d1bccf7c.css.map": "/my-website/static/css/main.d1bccf7c.css.map",
-    "main.705dd4c1.js.map": "/my-website/static/js/main.705dd4c1.js.map"
+    "main.53e8435c.css.map": "/my-website/static/css/main.53e8435c.css.map",
+    "main.0dd62d1e.js.map": "/my-website/static/js/main.0dd62d1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1bccf7c.css",
-    "static/js/main.705dd4c1.js"
+    "static/css/main.53e8435c.css",
+    "static/js/main.0dd62d1e.js"
   ]
 }
