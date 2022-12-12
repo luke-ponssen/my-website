@@ -6,7 +6,7 @@
 }
 
 .about-me h1 {
-    background-image: linear-gradient(to right, #6d47f9 25%, #356fed 100%);
+    background-image: linear-gradient(to right, #cc47f9 25%, #1252db 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -22,7 +22,7 @@
 }
 
 .about-me-grid div {
-    background-color: rgba(31, 33, 100, 0.5);
+    background-color: rgba(82, 82, 86, 0.25);
     box-sizing: border-box;
     padding: 0px 30px 20px 30px;
 }

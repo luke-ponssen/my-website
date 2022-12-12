@@ -1,5 +1,5 @@
 .nav {
-    background-color: rgb(0, 2, 10);
+    background-image: radial-gradient(circle, rgb(16, 2, 19) 15%, rgb(2, 4, 23) 100%);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,7 @@
 .site-title {
     font-size: 2rem;
     font-weight: 600;
-    background-image: linear-gradient(to right, #6d47f9 25%, #356fed 100%);
+    background-image: linear-gradient(to right, #cc47f9 25%, #1252db 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;

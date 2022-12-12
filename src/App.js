@@ -4,8 +4,13 @@ import AboutMe from './pages/AboutMe.js'
 import Projects from './pages/Projects.js'
 import { Route, Routes } from 'react-router-dom'
 import {Helmet} from "react-helmet"
+import React, { useEffect } from "react"
 
 function App() {
+
+    useEffect(() => {
+        window.location.replace("https://luke-ponssen.github.io/my-website/");
+    }, []);
 
     return (
         <>
