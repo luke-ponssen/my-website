@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.53e8435c.css",
-    "main.js": "/my-website/static/js/main.0dd62d1e.js",
+    "main.css": "/my-website/static/css/main.1b6d590b.css",
+    "main.js": "/my-website/static/js/main.9b3d56e4.js",
     "static/media/countymap.png": "/my-website/static/media/countymap.90101938d09db3fa194e.png",
     "static/media/swimmer.png": "/my-website/static/media/swimmer.6db7a4a7df29b13dd664.png",
+    "static/media/family.png": "/my-website/static/media/family.999f823660256fdaa75b.png",
+    "static/media/piano.png": "/my-website/static/media/piano.4a747fe166aac6db6389.png",
     "static/media/student.png": "/my-website/static/media/student.34d37a2d23bd96cb840f.png",
     "static/media/akp.png": "/my-website/static/media/akp.17781a55d7e93abc1408.png",
+    "static/media/elisa.png": "/my-website/static/media/elisa.c55516a85bab54eb1c9f.png",
     "static/media/platformer.png": "/my-website/static/media/platformer.d73fa257ef4fe6e57289.png",
     "static/media/image1.png": "/my-website/static/media/image1.0a91c7361076dfccfc6c.png",
     "static/media/code.png": "/my-website/static/media/code.bd2c032271f67d8634b8.png",
     "index.html": "/my-website/index.html",
-    "main.53e8435c.css.map": "/my-website/static/css/main.53e8435c.css.map",
-    "main.0dd62d1e.js.map": "/my-website/static/js/main.0dd62d1e.js.map"
+    "main.1b6d590b.css.map": "/my-website/static/css/main.1b6d590b.css.map",
+    "main.9b3d56e4.js.map": "/my-website/static/js/main.9b3d56e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.53e8435c.css",
-    "static/js/main.0dd62d1e.js"
+    "static/css/main.1b6d590b.css",
+    "static/js/main.9b3d56e4.js"
   ]
 }
