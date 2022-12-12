@@ -17,8 +17,14 @@
     margin: 2rem 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 100px;
+    grid-gap: 50px;
     vertical-align: middle;
+}
+
+.about-me-grid div {
+    background-color: rgba(31, 33, 100, 0.5);
+    box-sizing: border-box;
+    padding: 0px 30px 20px 30px;
 }
 
 .about-me-img {

@@ -28,7 +28,9 @@ function Home() {
 
   return (
     <>
+    <div className="pink__gradient">asdf</div>
     <div className="home">
+      <div className="pink__gradient" />
       <div className="home-grid">
         <div className="home-content">
             <h1>Welcome to My Portfolio</h1>

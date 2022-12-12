@@ -3,6 +3,9 @@ import './AboutMe.css';
 import akp from '../images/akp.png'
 import student from '../images/student.png'
 import swimmer from '../images/swimmer.png'
+import familymember from '../images/family.png'
+import elisa from '../images/elisa.png'
+import musician from '../images/piano.png'
 
 function AboutMe() {
 return (
@@ -10,7 +13,7 @@ return (
       <h1>Who am I?</h1>
       <div className="about-me-grid">
         <div>
-            <h3>I'm a brother of AKPsi</h3>
+            <h3>I'm a brother</h3>
             <img src={akp} className="about-me-img" alt="akp" />
         </div>
         <div>
@@ -20,6 +23,18 @@ return (
         <div>
             <h3>I'm a swimmer</h3>
             <img src={swimmer} className="about-me-img" alt="swimmer" />
+        </div>
+        <div>
+            <h3>I'm a family member</h3>
+            <img src={familymember} className="about-me-img" alt="familymember" />
+        </div>
+        <div>
+            <h3>I'm a partner</h3>
+            <img src={elisa} className="about-me-img" alt="partner" />
+        </div>
+        <div>
+            <h3>I'm a musician</h3>
+            <img src={musician} className="about-me-img" alt="musician" />
         </div>
       </div>
     </div>
