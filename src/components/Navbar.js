@@ -6,8 +6,8 @@ export default function Navbar() {
         <nav className="nav">
             <Link to="/my-website" className="site-title">Luke's Website</Link>
             <ul>
-                <CustomLink to="/aboutme">About Me</CustomLink>
-                <CustomLink to="/myprojects">My Projects</CustomLink>
+                <CustomLink to="/my-website/about-me">About Me</CustomLink>
+                <CustomLink to="/my-website/my-projects">My Projects</CustomLink>
             </ul>
         </nav>
     )
