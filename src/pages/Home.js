@@ -12,14 +12,14 @@ function Home() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings:["Feel free to explore its pages.",
-      "Greetings from Luke.",
+      "Clicking on <i>Luke's Website</i> returns you to the Home page.",
+      "Try hovering your cursor over this image ----------------->",
       "I heard the About Me section is <strong>REALLLLLY</strong> interesting.",
-      "<i>I am your father!!!</i>",
       "You've gotten this far...^2000 you should hire me :)",],
       startDelay: 1000,
       typeSpeed: 50,
       backDelay: 4000,
-      backSpeed: 25,
+      backSpeed: 15,
       smartBackspace: true,
       showCursor: true,
       loop: false,
