@@ -1,0 +1,56 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.project h1 {
+    background-image: linear-gradient(to right, #dee2e6 25%, #6c757c 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+    
+.project-grid {
+    padding: 2rem 0rem;
+    margin: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    vertical-align: middle;
+}
+
+.project-grid h3 {
+    color: white;
+}
+
+.project-grid p {
+    text-align: center;
+}
+
+.project-grid a {
+    color: white;
+}
+    
+.project-grid-img {
+    width: 500px;
+    height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .project-grid {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+      padding: 0rem 0rem;
+      margin: 0rem 0rem;
+      grid-gap: 50px;
+    }
+    .project-grid-img {
+        width: 400px;
+        height: 240px;
+    }
+  }
