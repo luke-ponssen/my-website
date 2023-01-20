@@ -6,7 +6,7 @@
 
 .home-grid {
   padding-left: 4rem;
-  padding-top: 1rem;
+  padding-top: 0rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
@@ -19,7 +19,7 @@
   margin: 6rem 4rem;
   margin-top: 215px;
 
-  background-image: linear-gradient(to right, #dee2e6 25%, #6c757c 100%);
+  background-image: linear-gradient(to right, #cca3c3 15%, #73bce0 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -63,8 +63,8 @@
     margin: 0rem 0rem;
   }
   .home-image {
-    width: 504px; /* 336 */
-    height: 532.5px; /* 355 */
+    width: 336px; /* 336 */
+    height: 355px; /* 355 */
     grid-area: image;
   }
 }
@@ -83,7 +83,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 6rem 4rem;
     font-size: 6rem;
-    background-image: linear-gradient(to right, #dee2e6 25%, #6c757c 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;

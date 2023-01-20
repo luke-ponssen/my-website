@@ -6,7 +6,7 @@
 }
 
 .about-me h1 {
-    background-image: linear-gradient(to right, #dee2e6 25%, #6c757c 100%);
+    background-image: linear-gradient(to right, #cca3c3 15%, #73bce0 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;

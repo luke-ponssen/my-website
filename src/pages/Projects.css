@@ -6,7 +6,7 @@
 }
 
 .project h1 {
-    background-image: linear-gradient(to right, #dee2e6 25%, #6c757c 100%);
+    background-image: linear-gradient(to right, #cca3c3 15%, #73bce0 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -18,7 +18,7 @@
     margin: 2rem 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
+    grid-gap: 150px;
     vertical-align: middle;
 }
 
@@ -39,7 +39,7 @@
     height: 300px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .project-grid {
       display: grid;
       grid-template-columns: auto;
@@ -47,10 +47,18 @@
       align-items: center;
       padding: 0rem 0rem;
       margin: 0rem 0rem;
-      grid-gap: 50px;
+      grid-gap: 100px;
     }
     .project-grid-img {
         width: 400px;
         height: 240px;
     }
   }
+
+@media screen and (min-width: 1800px) {
+    .project-grid p {
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
