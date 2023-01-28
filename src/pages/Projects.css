@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: #dee2e6;
 }
 
 .project h1 {
@@ -23,7 +23,7 @@
 }
 
 .project-grid h3 {
-    color: white;
+    color: #dee2e6;
 }
 
 .project-grid p {
@@ -31,7 +31,7 @@
 }
 
 .project-grid a {
-    color: white;
+    color: #dee2e6;
 }
     
 .project-grid-img {
@@ -65,5 +65,9 @@
         text-align: center;
         margin-left: 150px;
         margin-right: 150px;
+    }
+    .project-grid-img {
+        width: 750px;
+        height: 450px;
     }
 }

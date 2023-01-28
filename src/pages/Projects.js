@@ -36,7 +36,7 @@ const Projects = () => {
 
         <div>
             <h3>EXOPLANET DATA MINING</h3>
-            <p>In one of my first computer science projects, I led 5 other team members in creating the Comprehensive Habitability Index (CHI) for evaluating the eccentricity, habitable zone, and atmospheric similarity of exoplanets to that of Earth. Computing this CHI required extensive planet habitability research, parsing through NASA's exoplanet archive, and using a general understanding of astrophysics and chemistry to mathematically compute various indicators of habitability.</p>
+            <p>In one of my first computer science projects, I led 5 other team members in creating the Comprehensive Habitability Index (CHI) for evaluating the eccentricity, habitable zone, and atmospheric similarity of exoplanets to that of Earth. Computing this CHI required extensive planet habitability research, parsing through NASA's exoplanet archive, and using a general understanding of astrophysics and chemistry to mathematically compute various indicators of habitability. Our research paper can be found <a href='https://drive.google.com/file/d/1H81uODt8P8_l3DuHJvFaUk82Y-yp0mXH/view'>here</a>.</p>
 
             <img src={image6} className='project-grid-img' alt="exoplanets" />
         </div>
