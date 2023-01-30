@@ -1,4 +1,5 @@
 import image1 from '../images/image1.png';
+import pfp from '../images/pfp2.png';
 
 import React from 'react';
 import { useEffect, useRef } from 'react';
@@ -34,8 +35,8 @@ function Home() {
             <h1>Welcome to My Portfolio</h1>
             <p><span ref={el}></span></p>
         </div>
-        <div>
-            <img src={image1} className="home-image" alt="pfp" />
+        <div class="circle-image">
+          <img src={pfp} alt="circle image"/>
         </div>
       </div>
     </div>
