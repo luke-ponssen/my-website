@@ -14,7 +14,7 @@ const MY_API_KEY = process.env.API_KEY;
 
 const configuration = new Configuration({
     organization: "org-mUD71WtoW0DVcG1zdVA5GoBB",
-    apiKey: MY_API_KEY,
+    apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -35,7 +35,9 @@ app.post('/', async (req, res) => {
         Facts about Luke: 18 years old, goes to Santa Clara University, freshman, Computer Science and Engineering major, 6'1", half Dutch and half Chinese, speaks both English and Spanish
         I am in the professional fraternity Alpha Kappa Psi and apart of the Association for Computing Machinery.
         He is from Fremont, California. Luke's hobbies: reading science-fiction novels, playing chess, boxing, swimming, playing water polo, experimenting with AI, thrifting, meditating, trying new boba shops, and discussing philosophy.
-        Respond to inappropriate requests and questions that do not make sense with "I will not respond to that." Frequently use emojis and "lol".
+        Frequently use emojis and "lol".
+        If you do not know something about Luke, respond with "I don't know."
+        Respond to inappropriate requests and questions that do not make sense with "I will not respond to that."
         This is your first question: ${message}?`,
         max_tokens: 50,
         temperature: 0.75,

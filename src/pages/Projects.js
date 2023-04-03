@@ -22,7 +22,7 @@ const Projects = () => {
 
         <div>
             <h3>BELLWETHER CLASSIFICATION MODELS</h3>
-            <p>In 2021, I led a team of 6 ambitious researchers to study the statistical significance of bellwether counties in US presidential elections from 2000-2022. Bellwether counties are counties that have consistently voted in favor of the winning presidential candidate every eleciton cycle. Since only one bellwether remains, our group trained 3 machine learning classifiers on 531486 county-level data points in order to find out what attributes make bellwethers stand out. You can read the rest of our publicaiton at the Seriatim Journal of American Politics <a href='https://static1.squarespace.com/static/5fa95df956e953688e53a817/t/61c23da2a32f1f5cc4e3f592/1640119719012/Seriatim+Journal+Fall+2021.pdf'>here</a>.</p>
+            <p>In 2021, I led a team of 6 ambitious researchers to study the statistical significance of bellwether counties in US presidential elections from 2000-2022. Bellwether counties are counties that have consistently voted in favor of the winning presidential candidate every election cycle. Since only one bellwether remains, our group trained 3 machine learning classifiers on 531486 county-level data points in order to find out what attributes make bellwethers stand out. You can read the rest of our publication at the Seriatim Journal of American Politics <a href='https://static1.squarespace.com/static/5fa95df956e953688e53a817/t/61c23da2a32f1f5cc4e3f592/1640119719012/Seriatim+Journal+Fall+2021.pdf'>here</a>.</p>
 
             <img src={image4} className='project-grid-img' alt="usmap" />
         </div>

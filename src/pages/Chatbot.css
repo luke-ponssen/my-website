@@ -15,12 +15,12 @@
 
 .chatbot h6 {
     height: auto;
-    min-height: 62vh;
+    /* min-height: 62vh; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
   
 

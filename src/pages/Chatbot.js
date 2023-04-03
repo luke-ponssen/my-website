@@ -31,6 +31,7 @@ function Chatbot() {
       </form>
       {response && <div>{response}.</div>}
       <h6>*The responses provided above are generated using OpenAI's GPT-3 text-davinci-003 model. Though the responses are trained to represent me, they may not be entirely true nor do they accurately represent my views.</h6>
+      <h6>*The the monthly limit for API calls has been reached.</h6>
     </div>
   );
 }

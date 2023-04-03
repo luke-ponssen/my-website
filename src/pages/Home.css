@@ -1,23 +1,21 @@
 .home {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* flex-direction: row; */
+  /* align-items: center; */
 }
 
 .home-grid {
-  padding-left: 4rem;
-  padding-top: 0rem;
+  /* padding-left: 4rem; */
+  /* padding-top: 0rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   grid-gap: 10px;
-  vertical-align: middle;
+  vertical-align: middle; */
 }
 
 .home-grid h1 {
   font-size: 4rem;
-  margin: 6rem 4rem;
-  margin-top: 215px;
 
   background-image: linear-gradient(to right, #cca3c3 15%, #73bce0 100%);
   -webkit-background-clip: text;
