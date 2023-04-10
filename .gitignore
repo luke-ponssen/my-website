@@ -27,3 +27,8 @@ yarn-error.log*
 
 # trash
 node_modules/
+
+Chatbot.css
+Chatbot.js
+ChatbotB.js
+ChatbotBackend.js
