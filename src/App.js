@@ -21,7 +21,6 @@ function App() {
                     <Route path="/my-website" element={<Home />} />
                     <Route path="/my-website/about-me" element={<AboutMe />} />
                     <Route path="/my-website/my-projects" element={<Projects />} />
-                    <Route path="/my-website/chatbot" element={<Chatbot />} />
                 </Routes>
             </div>
         </>

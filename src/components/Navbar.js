@@ -8,7 +8,6 @@ export default function Navbar() {
             <ul>
                 <CustomLink to="/my-website/about-me">About Me</CustomLink>
                 <CustomLink to="/my-website/my-projects">My Projects</CustomLink>
-                <CustomLink to="/my-website/chatbot">Chatbot</CustomLink>
             </ul>
         </nav>
     )
