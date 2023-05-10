@@ -28,7 +28,6 @@ function Home() {
   })
 
   return (
-    <>
     <div className="home">
       <div className="home-grid">
         <div className="home-content">
@@ -40,7 +39,6 @@ function Home() {
         </div>
       </div>
     </div>
-    </>
   ); 
 }
 
