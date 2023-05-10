@@ -4,18 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 2rem;
-    padding: 0rem 1rem;
-}
-
-.site-title {
-    font-size: 2rem;
-    font-weight: 600;
-    background-image: linear-gradient(to right, #cca3c3 15%, #73bce0 100%);
-    background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    gap: 10px;
+    padding: 0 20px 0 20px;
 }
 
 .nav ul {
@@ -36,6 +26,16 @@
     text-align: center;
 }
 
+.site-title {
+    font-size: 35px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #cca3c3 15%, #73bce0 100%);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
 .nav li:active {
     background-color: #555;
 }
@@ -49,4 +49,17 @@
 }
 .nav a:hover {
     background-color: rgb(26, 26, 26);
+}
+
+@media (max-width: 600px) {
+    .nav {
+        padding: 0;
+        gap: 0;
+    }
+    .nav a {
+        padding: 10px;
+    }
+    .site-title {
+        font-size: 30px;
+    }
 }

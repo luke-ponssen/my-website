@@ -8,8 +8,8 @@ export default function Navbar() {
             <ul>
                 <CustomLink to="/my-website/about-me">About</CustomLink>
                 <CustomLink to="/my-website/my-projects">Portfolio</CustomLink>
-                <a href="https://luke-ponssen.github.io/resume/">Resume</a>
-            </ul>
+                <a href="https://luke-ponssen.github.io/resume/" target="_blank" rel="noopener noreferrer">Resume</a>
+            </ul> 
         </nav>
     )
 }

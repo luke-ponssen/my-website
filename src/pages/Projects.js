@@ -3,6 +3,7 @@ import image4 from '../images/countymap.png'
 import image3 from '../images/code.png'
 import image5 from '../images/platformer.png'
 import image6 from '../images/exoplanets.png'
+import image7 from '../images/consultingwebsite.jpg'
 
 import React from 'react';
 
@@ -22,9 +23,16 @@ const Projects = () => {
 
         <div>
             <h3>BELLWETHER CLASSIFICATION MODELS</h3>
-            <p>In 2021, I led a team of 6 ambitious researchers to study the statistical significance of bellwether counties in US presidential elections from 2000-2022. Bellwether counties are counties that have consistently voted in favor of the winning presidential candidate every election cycle. Since only one bellwether remains, our group trained 3 machine learning classifiers on 531486 county-level data points in order to find out what attributes make bellwethers stand out. You can read the rest of our publication at the Seriatim Journal of American Politics <a href='https://static1.squarespace.com/static/5fa95df956e953688e53a817/t/61c23da2a32f1f5cc4e3f592/1640119719012/Seriatim+Journal+Fall+2021.pdf'>here</a>.</p>
+            <p>In 2021, I led a team of 6 ambitious researchers to study the statistical significance of bellwether counties in US presidential elections from 2000-2022. Bellwether counties are counties that have consistently voted in favor of the winning presidential candidate every election cycle. Since only one bellwether remains, our group trained 3 machine learning classifiers on 531486 county-level data points in order to find out what attributes make bellwethers stand out. You can read the rest of our publication at the Seriatim Journal of American Politics <a href='https://static1.squarespace.com/static/5fa95df956e953688e53a817/t/61c23da2a32f1f5cc4e3f592/1640119719012/Seriatim+Journal+Fall+2021.pdf' target="_blank" rel="noopener noreferrer">here</a>.</p>
 
             <img src={image4} className='project-grid-img' alt="usmap" />
+        </div>
+
+        <div>
+            <h3>WEBSITES FOR CLIENTS</h3>
+            <p>After creating my first website, I went on to build more websites for myself, for friends, and for clients. <a href='https://luke-ponssen.github.io/test/#home' target="_blank" rel="noopener noreferrer">This</a> is one website that I built that I am particularly proud of. I coded mostly in HTML and CSS for this one, and I enjoyed the challenges that came with implementing a background with a transparent navigation bar, using Swiper JS to switch back and forth between reviews, and creating a booking form at the bottom of the website. Overall, I had fun experimenting with the various features I could implement.</p>
+
+            <img src={image7} className='project-grid-img' alt="consulting" />
         </div>
 
         <div>
@@ -36,7 +44,7 @@ const Projects = () => {
 
         <div>
             <h3>EXOPLANET DATA MINING</h3>
-            <p>In one of my first computer science projects, I led 5 other team members in creating the Comprehensive Habitability Index (CHI) for evaluating the eccentricity, habitable zone, and atmospheric similarity of exoplanets to that of Earth. Computing this CHI required extensive planet habitability research, parsing through NASA's exoplanet archive, and using a general understanding of astrophysics and chemistry to mathematically compute various indicators of habitability. Our research paper can be found <a href='https://drive.google.com/file/d/1H81uODt8P8_l3DuHJvFaUk82Y-yp0mXH/view'>here</a>.</p>
+            <p>In one of my first computer science projects, I led 5 other team members in creating the Comprehensive Habitability Index (CHI) for evaluating the eccentricity, habitable zone, and atmospheric similarity of exoplanets to that of Earth. Computing this CHI required extensive planet habitability research, parsing through NASA's exoplanet archive, and using a general understanding of astrophysics and chemistry to mathematically compute various indicators of habitability. Our research paper can be found <a href='https://drive.google.com/file/d/1H81uODt8P8_l3DuHJvFaUk82Y-yp0mXH/view' target="_blank" rel="noopener noreferrer">here</a>.</p>
 
             <img src={image6} className='project-grid-img' alt="exoplanets" />
         </div>
