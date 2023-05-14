@@ -17,7 +17,7 @@ const Projects = () => {
 
         <div>
             <h3>PORTFOLIO IN SPACE</h3>
-            <p>Inpsired to make a more interactive portfolio, I challenged myself and used the Three JS library to showcase my projects. The theme of this alternate portfolio would be outerspace and at the center of the portfolio tour I animated the black "Everything Bagel" from one of my favorite movies Everything Everywhere All At Once. I've thoroughly enjoyed constructing this one-of-a-kind portfolio and continue to add more fun details, such as a moon that rotates everytime the user scrolls. Embark on an awesome adventure as you scroll through <a href="https://luke-ponssen.github.io/portfolio">my portfolio</a> in outer space!</p>
+            <p>Inpsired to make a more interactive portfolio, I challenged myself and used the Three JS library to showcase my projects. The theme of this alternate portfolio would be outerspace and at the center of the portfolio tour I animated the black "Everything Bagel" from one of my favorite movies Everything Everywhere All At Once. I've thoroughly enjoyed constructing this one-of-a-kind portfolio and continue to add more fun details, such as a moon that rotates everytime the user scrolls. Embark on an awesome adventure as you scroll through <a href="https://luke-ponssen.github.io/portfolio" target="_blank" rel="noopener noreferrer">my portfolio</a> in outer space!</p>
 
             <img src={image8} className='project-grid-img' alt="donut" />
         </div>
@@ -45,7 +45,7 @@ const Projects = () => {
 
         <div>
             <h3>PLATFORMER VIDEO GAME</h3>
-            <p>Inspired by my favorite childhood video game, Super Mario Bros 2, I created a 2-dimensional platformer game using Java and Processing. I hard-coded the game fundamentals--gravity, player jumping and crouching, moving enemies, collectable coins, platform detection, collision detection, and map generation--and added some of my own unqiue designs, including a crouch-jump super power that lets you jump up to 2x your original max jump height or a secret passage that grants the player plenty of extra coins. Check out the <a href="https://github.com/luke-ponssen/Platformer-Video-Game">source code</a>.</p>
+            <p>Inspired by my favorite childhood video game, Super Mario Bros 2, I created a 2-dimensional platformer game using Java and Processing. I hard-coded the game fundamentals--gravity, player jumping and crouching, moving enemies, collectable coins, platform detection, collision detection, and map generation--and added some of my own unqiue designs, including a crouch-jump super power that lets you jump up to 2x your original max jump height or a secret passage that grants the player plenty of extra coins. Check out the <a href="https://github.com/luke-ponssen/Platformer-Video-Game" target="_blank" rel="noopener noreferrer">source code</a>.</p>
 
             <img src={image5} className='project-grid-img' alt="platformer"/>
         </div>
