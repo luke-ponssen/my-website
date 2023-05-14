@@ -17,7 +17,7 @@ const Projects = () => {
 
         <div>
             <h3>PORTFOLIO IN SPACE</h3>
-            <p>Inpsired to make a more interactive portfolio, I challenged myself and used the Three JS library to showcase my projects. The theme of this alternate portfolio would be outerspace and at the center of the portfolio tour I animated the black "Everything Bagel" from one of my favorite movies Everything Everywhere All At Once. I've thoroughly enjoyed constructing this one-of-a-kind portfolio and continue to add more fun details, such as a moon that rotates everytime the user scrolls. Embark on an awesome adventure as you scroll through <a href="#">my portfolio</a> in outer space!</p>
+            <p>Inpsired to make a more interactive portfolio, I challenged myself and used the Three JS library to showcase my projects. The theme of this alternate portfolio would be outerspace and at the center of the portfolio tour I animated the black "Everything Bagel" from one of my favorite movies Everything Everywhere All At Once. I've thoroughly enjoyed constructing this one-of-a-kind portfolio and continue to add more fun details, such as a moon that rotates everytime the user scrolls. Embark on an awesome adventure as you scroll through <a href="https://luke-ponssen.github.io/portfolio">my portfolio</a> in outer space!</p>
 
             <img src={image8} className='project-grid-img' alt="donut" />
         </div>
