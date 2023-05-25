@@ -30,15 +30,15 @@ const Projects = () => {
         </div>
 
         <div>
-            <h3>THIS WEBSITE</h3>
+            <h3>REACT JS WEBSITE</h3>
             <p>Making this website has challenged me to learn Javascript and CSS from scratch. Starting with the basic tutorial videos, I've quickly learned how to create buttons, navigate to different pages, create animations, outline the structure of various webpages, and style my website using gradients. I've enjoyed the intellectual creativity and freedom in being able to construct and design each aspect of this website, as well as add in unique features such as the automated typing on the homepage or the personalization of the About Me section using photos and cards.</p>
 
             <img src={image3} className='project-grid-img' alt="code-ss" />
         </div>
 
         <div>
-            <h3>WEBSITES FOR CLIENTS</h3>
-            <p>After creating my first website, I went on to build more websites for myself, for friends, and for clients. <a href='https://luke-ponssen.github.io/test/#home' target="_blank" rel="noopener noreferrer">This</a> is one website that I built that I am particularly proud of. I coded mostly in HTML and CSS for this one, and I enjoyed the challenges that came with implementing a background with a transparent navigation bar, using Swiper JS to switch back and forth between reviews, and creating a booking form at the bottom of the website. Overall, I had fun experimenting with the various features I could implement.</p>
+            <h3>VANILLA HTML WEBSITE</h3>
+            <p>After creating my first website, I went on to build more websites for myself, for friends, and for clients. <a href='https://luke-ponssen.github.io/consulting/#home' target="_blank" rel="noopener noreferrer">This</a> is one website that I built that I am particularly proud of. I coded mostly in HTML and CSS for this one, and I enjoyed the challenges that came with implementing a background with a transparent navigation bar, using Swiper JS to switch back and forth between reviews, and creating a booking form at the bottom of the website. Overall, I had fun experimenting with the various features I could implement.</p>
 
             <img src={image7} className='project-grid-img' alt="consulting" />
         </div>
