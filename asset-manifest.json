@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.4037f426.css",
-    "main.js": "/my-website/static/js/main.d398c17e.js",
+    "main.js": "/my-website/static/js/main.d5564665.js",
     "static/media/countymap.png": "/my-website/static/media/countymap.90101938d09db3fa194e.png",
     "static/media/swimmer.png": "/my-website/static/media/swimmer.6db7a4a7df29b13dd664.png",
     "static/media/read.png": "/my-website/static/media/read.43ef8511cf6c745dc57a.png",
@@ -16,15 +16,20 @@
     "static/media/engineer.png": "/my-website/static/media/engineer.bf83c20504f538212407.png",
     "static/media/platformer.png": "/my-website/static/media/platformer.d73fa257ef4fe6e57289.png",
     "static/media/consultingwebsite.jpg": "/my-website/static/media/consultingwebsite.3b65c818f5b73a541a55.jpg",
+    "static/media/dorms.jpg": "/my-website/static/media/dorms.1992af66597d410b056b.jpg",
     "static/media/donut.jpg": "/my-website/static/media/donut.f77f2d74ceeee5869f83.jpg",
+    "static/media/snow.jpg": "/my-website/static/media/snow.ff7822d03bd45c56a086.jpg",
+    "static/media/sailing.jpg": "/my-website/static/media/sailing.1cac174cf09fffdb3556.jpg",
     "static/media/image1.png": "/my-website/static/media/image1.0a91c7361076dfccfc6c.png",
+    "static/media/lego.jpg": "/my-website/static/media/lego.a7b3f49e20e7c2942d85.jpg",
     "static/media/code.png": "/my-website/static/media/code.09452ff9e13d9dc89fc0.png",
+    "static/media/misinfo.jpg": "/my-website/static/media/misinfo.20cd444b9c9353760582.jpg",
     "index.html": "/my-website/index.html",
     "main.4037f426.css.map": "/my-website/static/css/main.4037f426.css.map",
-    "main.d398c17e.js.map": "/my-website/static/js/main.d398c17e.js.map"
+    "main.d5564665.js.map": "/my-website/static/js/main.d5564665.js.map"
   },
   "entrypoints": [
     "static/css/main.4037f426.css",
-    "static/js/main.d398c17e.js"
+    "static/js/main.d5564665.js"
   ]
 }
