@@ -9,19 +9,22 @@ import musician from '../images/piano.png'
 import friend from '../images/friend.png'
 import engineer from '../images/engineer.png'
 import reader from '../images/read.png'
+import sailor from '../images/sailing.jpg'
+import lego from '../images/lego.jpg'
+import snow from '../images/snow.jpg'
 
 function AboutMe() {
 return (
     <div className="about-me">
       <h1>Who am I?</h1>
       <div className="about-me-grid">
-        <div>
-            <h3>I'm a brother</h3>
-            <img src={akp} className="about-me-img" alt="akp" />
+      <div>
+            <h3>I'm a sailor</h3>
+            <img src={sailor} className="about-me-img" alt="sailor" />
         </div>
         <div>
-            <h3>I'm a student</h3>
-            <img src={student} className="about-me-img" alt="Student" />
+            <h3>I'm a 3D modeler</h3>
+            <img src={lego} className="about-me-img" alt="modeler" />
         </div>
         <div>
             <h3>I'm a swimmer</h3>
@@ -44,12 +47,12 @@ return (
             <img src={musician} className="about-me-img" alt="musician" />
         </div>
         <div>
-            <h3>I'm a friend</h3>
-            <img src={friend} className="about-me-img" alt="friend" />
+            <h3>I'm a student</h3>
+            <img src={student} className="about-me-img" alt="Student" />
         </div>
         <div>
-            <h3>I'm a partner</h3>
-            <img src={elisa} className="about-me-img" alt="partner" />
+            <h3>I'm a skier</h3>
+            <img src={snow} className="about-me-img" alt="snow" />
         </div>
       </div>
     </div>

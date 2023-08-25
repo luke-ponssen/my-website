@@ -7,7 +7,8 @@ export default function Navbar() {
             <Link to="/my-website" className="site-title">Luke's Website</Link>
             <ul>
                 <CustomLink to="/my-website/about-me">About</CustomLink>
-                <CustomLink to="/my-website/my-projects">Portfolio</CustomLink>
+                <CustomLink to="/my-website/my-research">Research</CustomLink>
+                <CustomLink to="/my-website/my-projects">Projects</CustomLink>
                 <a href="https://luke-ponssen.github.io/resume/" target="_blank" rel="noopener noreferrer">Resume</a>
             </ul> 
         </nav>
