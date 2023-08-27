@@ -5,6 +5,7 @@ import image5 from '../images/platformer.png'
 import image6 from '../images/exoplanets.png'
 import image7 from '../images/consultingwebsite.jpg'
 import image8 from '../images/donut.jpg'
+import broncos from '../images/broncos.jpg'
 
 import React from 'react';
 
@@ -14,6 +15,13 @@ const Projects = () => {
     <div className="project">
       <h1>What projects have I done?</h1>
       <div className="project-grid">
+
+        <div>
+            <h3>BRONCO SALT & PEPPER SHAKERS</h3>
+            <p>For the SCU Maker Product Design Challenge, I designed hugging bronco salt & pepper shakers using SolidWorks CAD software and 3D printed 40 shakers in over 250 hours using Prusa and Ultimaker. I also helped my team laser cut acrylic sliders for the bottoms of the shakers so that the salt and pepper don't fall out. We marketed and sold out our shakers at the SCU Campus Bookstore, eventually winning $1500 for 2nd place in the 2023 competition. Check out more about our design process and maker competition <a href='https://teamyellowrose.carrd.co/' target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+            <img src={broncos} className='project-grid-img' alt="donut" />
+        </div>
 
         <div>
             <h3>PORTFOLIO IN SPACE</h3>
