@@ -6,6 +6,7 @@ import image6 from '../images/exoplanets.png'
 import image7 from '../images/consultingwebsite.jpg'
 import image8 from '../images/donut.jpg'
 import broncos from '../images/broncos.jpg'
+import hack from '../images/hack.jpg'
 
 import React from 'react';
 
@@ -17,8 +18,15 @@ const Projects = () => {
       <div className="project-grid">
 
         <div>
+            <h3>INRIX HACKATHON - 1ST PLACE</h3>
+            <p>INRIX Hack is an annual school-wide competition with over 304 participants and 43 teams in 2023. My team constructed a web service that compares commercial real estate listings based on their relative price (per sqft/month) and relative traffic to that address (by using INRIX's data on the number of trip endpoints). Overall, we learned a lot about calling APIs (we used the INRIX API, Google Maps API, Geocoding APIs), using webscrapers to find estate listing prices, and using Vue.js for the front end and Node.js for the backend. Here is the <a href='https://devpost.com/software/capital-insights' target="_blank" rel="noopener noreferrer">Devpost</a> and <a href='https://github.com/RileyHeike/InrixHack2023' target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+
+            <img src={hack} className='project-grid-img' alt="donut" />
+        </div>
+
+        <div>
             <h3>BRONCO SALT & PEPPER SHAKERS</h3>
-            <p>For the SCU Maker Product Design Challenge, I designed hugging bronco salt & pepper shakers using SolidWorks CAD software and 3D printed 40 shakers in over 250 hours using Prusa and Ultimaker. I also helped my team laser cut acrylic sliders for the bottoms of the shakers so that the salt and pepper don't fall out. We marketed and sold out our shakers at the SCU Campus Bookstore, eventually winning $1500 for 2nd place in the 2023 competition. Check out more about our design process and maker competition <a href='https://teamyellowrose.carrd.co/' target="_blank" rel="noopener noreferrer">here</a>.</p>
+            <p>For the SCU Maker Product Design Challenge, I designed hugging bronco salt & pepper shakers using SolidWorks CAD software and 3D printed 40 shakers in over 250 hours using Prusa and Ultimaker. I also helped my team laser cut acrylic sliders for the bottoms of the shakers so that the salt and pepper don't fall out. We marketed and sold out our shakers at the SCU Campus Bookstore, eventually <u>winning $1500 for 2nd place</u> in the 2023 competition. Check out more about our design process and maker competition <a href='https://teamyellowrose.carrd.co/' target="_blank" rel="noopener noreferrer">here</a>.</p>
 
             <img src={broncos} className='project-grid-img' alt="donut" />
         </div>

@@ -3,10 +3,8 @@ import './AboutMe.css';
 import akp from '../images/akp.png'
 import student from '../images/student.png'
 import swimmer from '../images/swimmer.png'
-import familymember from '../images/family.png'
-import elisa from '../images/elisa.png'
 import musician from '../images/piano.png'
-import friend from '../images/friend.png'
+import solver from '../images/inrix.jpg'
 import engineer from '../images/engineer.png'
 import reader from '../images/read.png'
 import sailor from '../images/sailing.jpg'
@@ -19,7 +17,7 @@ return (
       <h1>Who am I?</h1>
       <div className="about-me-grid">
       <div>
-            <h3>I'm a sailor</h3>
+            <h3>I'm an adventurer</h3>
             <img src={sailor} className="about-me-img" alt="sailor" />
         </div>
         <div>
@@ -27,19 +25,19 @@ return (
             <img src={lego} className="about-me-img" alt="modeler" />
         </div>
         <div>
-            <h3>I'm a swimmer</h3>
+            <h3>I'm an athlete</h3>
             <img src={swimmer} className="about-me-img" alt="swimmer" />
         </div>
         <div>
-            <h3>I'm a family member</h3>
-            <img src={familymember} className="about-me-img" alt="familymember" />
+            <h3>I'm a problem-solver</h3>
+            <img src={solver} className="about-me-img" alt="solver" />
         </div>
         <div>
             <h3>I'm an engineer</h3>
             <img src={engineer} className="about-me-img" alt="engineer" />
         </div>
         <div>
-            <h3>I'm a reader</h3>
+            <h3>I'm a lifelong learner</h3>
             <img src={reader} className="about-me-img" alt="reader" />
         </div>
         <div>
@@ -51,7 +49,7 @@ return (
             <img src={student} className="about-me-img" alt="Student" />
         </div>
         <div>
-            <h3>I'm a skier</h3>
+            <h3>I'm a friend</h3>
             <img src={snow} className="about-me-img" alt="snow" />
         </div>
       </div>
