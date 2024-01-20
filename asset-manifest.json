@@ -1,17 +1,14 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.4037f426.css",
-    "main.js": "/my-website/static/js/main.8d7a8355.js",
+    "main.js": "/my-website/static/js/main.57362cc6.js",
     "static/media/countymap.png": "/my-website/static/media/countymap.90101938d09db3fa194e.png",
     "static/media/swimmer.png": "/my-website/static/media/swimmer.6db7a4a7df29b13dd664.png",
     "static/media/read.png": "/my-website/static/media/read.43ef8511cf6c745dc57a.png",
-    "static/media/family.png": "/my-website/static/media/family.999f823660256fdaa75b.png",
     "static/media/pfp2.png": "/my-website/static/media/pfp2.bbd1749907baa0ab041b.png",
     "static/media/piano.png": "/my-website/static/media/piano.4a747fe166aac6db6389.png",
     "static/media/student.png": "/my-website/static/media/student.34d37a2d23bd96cb840f.png",
     "static/media/akp.png": "/my-website/static/media/akp.17781a55d7e93abc1408.png",
-    "static/media/friend.png": "/my-website/static/media/friend.73ba1807f853ee6fd087.png",
-    "static/media/elisa.png": "/my-website/static/media/elisa.c55516a85bab54eb1c9f.png",
     "static/media/exoplanets.png": "/my-website/static/media/exoplanets.ee5ac55fe8b14d924458.png",
     "static/media/engineer.png": "/my-website/static/media/engineer.bf83c20504f538212407.png",
     "static/media/platformer.png": "/my-website/static/media/platformer.d73fa257ef4fe6e57289.png",
@@ -21,16 +18,18 @@
     "static/media/snow.jpg": "/my-website/static/media/snow.ff7822d03bd45c56a086.jpg",
     "static/media/sailing.jpg": "/my-website/static/media/sailing.1cac174cf09fffdb3556.jpg",
     "static/media/image1.png": "/my-website/static/media/image1.0a91c7361076dfccfc6c.png",
+    "static/media/inrix.jpg": "/my-website/static/media/inrix.5cb82fe0c5850c0b7886.jpg",
     "static/media/lego.jpg": "/my-website/static/media/lego.a7b3f49e20e7c2942d85.jpg",
     "static/media/broncos.jpg": "/my-website/static/media/broncos.e9bc001760bc471a7cad.jpg",
+    "static/media/hack.jpg": "/my-website/static/media/hack.8fc3aab270dc5037fccd.jpg",
     "static/media/code.png": "/my-website/static/media/code.09452ff9e13d9dc89fc0.png",
     "static/media/misinfo.jpg": "/my-website/static/media/misinfo.20cd444b9c9353760582.jpg",
     "index.html": "/my-website/index.html",
     "main.4037f426.css.map": "/my-website/static/css/main.4037f426.css.map",
-    "main.8d7a8355.js.map": "/my-website/static/js/main.8d7a8355.js.map"
+    "main.57362cc6.js.map": "/my-website/static/js/main.57362cc6.js.map"
   },
   "entrypoints": [
     "static/css/main.4037f426.css",
-    "static/js/main.8d7a8355.js"
+    "static/js/main.57362cc6.js"
   ]
 }
